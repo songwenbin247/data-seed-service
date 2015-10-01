@@ -1,0 +1,22 @@
+---
+applications:
+  - name: training1-predix-dataseed
+    buildpack: java_buildpack
+    path: target/dataseed-service-1.2.0-SNAPSHOT.jar
+    timeout: 120
+    services:
+      - predixAsset
+
+env:
+    SPRING_PROFILES_ACTIVE : cloud,cloudtraining1
+    predix_asset_name : predixAsset
+    predix_userName : rmd_user_1
+    predix_password : rmd_user_1
+    predix_oauthRestHost : stc.predix-uaa-test.grc-apps.svc.ice.ge.com
+    predix_oauthClientId : training_app_1:tr@aining1
+    trustedIssuerIdsRegexPattern : ^http://(.*\\.)?stc.predix-uaa-test.grc-apps.svc.ice.ge.com/oauth/token$
+    accessTokenEndpointUrl : https://stc.predix-uaa-test.grc-apps.svc.ice.ge.com/oauth/token
+    clientId : rmd_ref_app_int
+    clientSecret: rmdint@a
+    acsUri : https://acs-STC.grc-apps.svc.ice.ge.com
+    acsSubZone : rmd-refapp-subdomain
