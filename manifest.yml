@@ -1,0 +1,23 @@
+---
+applications:
+  - name: {your-name}-data-seed
+    buildpack: java_buildpack
+    path: target/data-seed-service-2.0.6.jar	
+    memory: 512M
+    timeout: 120
+    services:
+      - {uaaService}
+      - {assetService}
+      - {acsService}
+
+env:
+    # NOTE: Some values in curly braces are updated by scripts
+    SPRING_PROFILES_ACTIVE : cloud
+    predix_uaa_name: {uaaService}
+    predix_asset_name : {assetService}
+    predix_oauth_clientId : {clientId}:{secret}
+    #used by predix acs-spring-security-extensions
+    accessTokenEndpointUrl : https://{oauthRestHost}/oauth/token
+    clientId : {clientId}
+    clientSecret: {secret}
+    acsServiceInstanceName: {acsService}
