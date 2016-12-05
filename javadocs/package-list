@@ -1,0 +1,6 @@
+com.ge.predix.solsvc.dataseed.asset
+com.ge.predix.solsvc.dataseed.boot
+com.ge.predix.solsvc.dataseed.config
+com.ge.predix.solsvc.dataseed.response
+com.ge.predix.solsvc.dataseed.service
+com.ge.predix.solsvc.dataseed.util
