@@ -5,7 +5,7 @@
 
 	<groupId>com.ge.predix.solsvc</groupId>
 	<artifactId>data-seed-service</artifactId>
-	<version>2.0.9</version>
+	<version>2.0.10</version>
 	<packaging>jar</packaging>
 
 	<name>data-seed-service</name>
@@ -21,7 +21,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>com.ge.predix.solsvc.dataseed.boot.DataseedServiceApplication</start-class>
-		<asset-bootstrap.version>2.0.10</asset-bootstrap.version>
+		<asset-bootstrap.version>2.0.11</asset-bootstrap.version>
 		<httpcomponents.version>4.5.2</httpcomponents.version>
 		<commons-csv.version>1.0</commons-csv.version>
 		<apache-poi.version>3.9</apache-poi.version>
