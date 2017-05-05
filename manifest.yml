@@ -2,7 +2,7 @@
 applications:
   - name: {your-name}-data-seed
     buildpack: java_buildpack
-    path: target/data-seed-service-2.0.10.jar	
+    path: target/data-seed-service-2.0.19.jar	
     memory: 512M
     timeout: 120
     services:
