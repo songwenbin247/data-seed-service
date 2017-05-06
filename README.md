@@ -1,4 +1,8 @@
-##Deprecated - See [Data-Exchange](https://github.com/PredixDev/data-exchange)
+
+
+##Deprecated - This repo is deprecated, see [Data-Exchange](https://github.com/PredixDev/data-exchange)
+
+
 
 <a href="http://predixdev.github.io/data-seed-service/javadocs/index.html" target="_blank" >
 	<img height="50px" width="100px" src="images/javadoc.png" alt="view javadoc"></a>
